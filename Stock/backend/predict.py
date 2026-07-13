@@ -193,4 +193,4 @@ def predict_stock(symbol, period, sim, future):
     os.remove("data.csv")
     html = mpld3.fig_to_html(plt.gcf())
     plt.close()
-    return html
+    return html
