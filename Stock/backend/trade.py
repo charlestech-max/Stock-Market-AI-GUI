@@ -256,4 +256,4 @@ def trade_stock(symbol, period, init, skip):
     os.remove("data.csv")
     return html
 
-    
+    

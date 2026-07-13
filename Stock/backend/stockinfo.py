@@ -167,4 +167,4 @@ def get_info(symbol):
         return stock_info
     except Exception as e:
         print(f"Error getting info for {symbol}: {str(e)}")
-        return None
+        return None
